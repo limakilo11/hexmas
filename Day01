@@ -2,10 +2,8 @@ from sympy import Symbol, divisors, mod_inverse, Poly
 from functools import reduce
 
 # Given data - its example data please replace it with your copy and paste data from  https://quilibrium.com/hexmas
-points = [[1, 1433771205], [2, 6546261], [3, 1605329328], [4, 740081726], 
-          [5, 1789455974], [6, 1929055614], [7, 1976982446], [8, 59514587], 
-          [9, 309170059], [10, 87933907]]
-modulus = 2147483647
+points = [[1, 1561874051],[2, 263342934],[3, 914073770],[4, 391101862],[5, 636037961],[6, 1976189601],[7, 740649728],[8, 1908770858],[9, 1693868177],[10, 191693699]], 
+modulus 2147483647
 
 # Lagrange Interpolation in a finite field
 def lagrange_interpolation(points, x, modulus):
